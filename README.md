@@ -1,3 +1,9 @@
+
+## The url of this app 
+https://play.google.com/store/apps/details?id=io.safiullin.lang
+
+Forked. 
+
 # SVGOMG / Trusted Web Activity
 
 This project uses the
