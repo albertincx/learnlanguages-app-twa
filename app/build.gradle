@@ -41,6 +41,7 @@ def twaManifest = [
 ]
 
 android {
+    compileSdkVersion 34
     defaultConfig {
         applicationId twaManifest.applicationId
         minSdkVersion 23
