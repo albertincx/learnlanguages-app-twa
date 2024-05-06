@@ -159,7 +159,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_spl" />
+                                      <entry key="previewDensity" value="hdpi" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -363,14 +363,14 @@
                                       </entry>
                                     </map>
                                   </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="previewDensity" value="hdpi" />
+                                    </map>
+                                  </option>
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
