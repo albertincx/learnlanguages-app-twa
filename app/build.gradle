@@ -19,10 +19,10 @@ import groovy.xml.MarkupBuilder
 apply plugin: 'com.android.application'
 
 def twaManifest = [
-    applicationId: 'io.safiullin.puzzle',
-    hostName: 'puzzle.safiullin.io', // The domain being opened in the TWA.
+    applicationId: 'io.safiullin.timer',
+    hostName: 'timer.safiullin.io', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'Puzzle Fun', // The name shown on the Android Launcher.
+    name: 'Offline Timer', // The name shown on the Android Launcher.
     themeColor: '#303F9F', // The color used for the status bar.
     navigationColor: '#303F9F', // The color used for the navigation bar.
     backgroundColor: '#bababa', // The color used for the splash screen background.
@@ -120,7 +120,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'io.safiullin.puzzle'
+    namespace 'io.safiullin.timer'
 }
 
 task generateShorcutsFile {
